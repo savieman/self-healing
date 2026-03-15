@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.Explorer(),
+    // Component.Explorer(),
   ],
   afterBody: [],
   footer: Component.Footer({
@@ -64,7 +64,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    // Component.Explorer(),
+    Component.Explorer(),
   ],
   right: [],
 }
